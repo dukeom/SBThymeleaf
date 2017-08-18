@@ -1,0 +1,4 @@
+/* User */
+insert into user (user_id, password, first_name, last_name) values
+('demo'      , 'demo'     , 'Demo'  , 'Demo'),
+('admin'     , 'admin'    , 'Administrator'  , 'Administrator');

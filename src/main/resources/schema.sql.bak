@@ -1,0 +1,13 @@
+DROP SCHEMA IF EXISTS example;
+
+CREATE SCHEMA example;
+USE example;
+
+/* Table: user (Application Users) */
+CREATE TABLE user (
+    user_id     NVARCHAR(20) NOT NULL,
+    password    NVARCHAR(20) NOT NULL,
+    first_name  NVARCHAR(50) ,
+    last_name   NVARCHAR(50) ,
+    CONSTRAINT user_id PRIMARY KEY(user_id)
+);
