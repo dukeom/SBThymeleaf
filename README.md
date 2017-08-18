@@ -1,2 +1,1 @@
-# SBThymeleaf
-Springboot+Thymeleaf+H2 example
+# SBThymeleafSpringboot+Thymeleaf+H2+Liquibase example## 설명이 프로젝트는 springboot와 thymeleaf를 사용하여 사용자 리스트를 보여주는 example 이다.H2 메모리DB를 사용하고, 실행시에 Database를 생성하고 Data 로드를 하는 것은 Liquibase를 사용했다.Application 실행 후 http://localhost:8080 실행 화면![실행화면](/screenshot/Users.png)http://localhost:8080/h2-console 실행 화면![H2 Console 실행화면](/screenshot/h2console.png)## Archytecture### Backend>Springboot + H2 + Mybatis + Liquibase### Frontend >thymeleaf
